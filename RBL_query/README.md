@@ -10,10 +10,12 @@
 
 ```bash
 conda create -n RBL_query
+# 切换入虚拟环境完成余下依赖的安装
+source activate RBL_query
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple dnspython3
 ```
 
-安装成功后，运行`source activate RBL_query`进入虚拟环境即可使用。
+安装成功后，每次使用前运行`source activate RBL_query`进入虚拟环境即可使用。
 
 ## 用法
 
