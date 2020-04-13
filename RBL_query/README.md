@@ -9,7 +9,8 @@
 建议使用Anaconda解决依赖：
 
 ```bash
-conda create -n RBL_query -c nsidc dnspython3
+conda create -n RBL_query
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple dnspython3
 ```
 
 安装成功后，运行`source activate RBL_query`进入虚拟环境即可使用。
